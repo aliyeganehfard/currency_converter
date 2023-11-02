@@ -10,9 +10,8 @@ class MyApp extends StatelessWidget{
 
   @override
   Widget build(BuildContext context){
-    return const Text(
-      'hello my first flutter app!',
-      textDirection: TextDirection.ltr,
+    return const MaterialApp(
+      home: Text('hello world'),
     );
   }
 
